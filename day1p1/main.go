@@ -34,17 +34,6 @@ func readFile(file_path string) []int {
 }
 
 func main() {
-	// my_slice := []int{199,
-	// 	200,
-	// 	208,
-	// 	210,
-	// 	200,
-	// 	207,
-	// 	240,
-	// 	269,
-	// 	260,
-	// 	263}
-	// fmt.Println(my_slice)
 
 	my_slice := readFile("inputfile.txt")
 
